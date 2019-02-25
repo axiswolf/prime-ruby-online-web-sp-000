@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(argument)
-  if argument == 0
+  if argument < 2
     return false
   end
   for i in 2..(argument/2) do
