@@ -4,6 +4,6 @@ def prime?(argument)
     if argument % i == 0
       return false
     end
-    return true
   end
+  return true
 end
